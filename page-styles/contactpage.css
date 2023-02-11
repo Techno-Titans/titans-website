@@ -29,8 +29,8 @@ label {
   width: 150px;
 }
 
-input[type="text"],
-input[type="email"],
+input[type='text'],
+input[type='email'],
 textarea {
   padding: 10px;
   font-size: 18px;
@@ -42,18 +42,26 @@ textarea {
   width: 100%;
 }
 
-input[type="submit"] {
+textarea {
+  height: 200px;
+  resize: none;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+input[type='submit'] {
   padding: 10px 20px;
   font-size: 18px;
   border: none;
   border-radius: 5px;
   background-color: #e500e2;
   color: #ffffff;
-  width: 100%;
+  width: 50%;
+  margin-left: auto;
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+input[type='submit']:hover {
   background-color: #ffffff;
   color: #e500e2;
 }
