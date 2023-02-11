@@ -1,34 +1,34 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #1d1546;
-}
-
-.header {
+  }
+  
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #e500e2;
-}
-
-.header .logo {
+  }
+  
+  .header .logo {
     cursor: pointer;
-}
-
-.header .redirect-link {
+  }
+  
+  .header .redirect-link {
     display: flex;
     align-items: center;
-}
-
-.header .redirect-text {
+  }
+  
+  .header .redirect-text {
     color: #ffffff;
     margin-right: 20px;
     cursor: pointer;
     font-weight: bold;
     font-size: 16px;
-}
-
-.contact-form {
+  }
+  
+  .contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,29 +37,28 @@ body {
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px #888888;
-}
-
-.form-title {
+  }
+  
+  .form-title {
     color: #1d1546;
     font-size: 24px;
     margin-bottom: 40px;
-}
-
-form {
+  }
+  
+  form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-}
-
-form label {
+  }
+  
+  form label {
     color: #1d1546;
     font-size: 18px;
     margin-bottom: 10px;
-}
-
-form input,
-form textarea {
+  }
+  
+  form input, form textarea {
     width: 80%;
     height: 35px;
     margin-bottom: 20px;
@@ -67,14 +66,14 @@ form textarea {
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
-}
-
-form textarea {
+  }
+  
+  form textarea {
     height: 150px;
     resize: none;
-}
-
-form input[type="submit"] {
+  }
+  
+  form input[type="submit"] {
     width: 20%;
     height: 35px;
     background-color: #e500e2;
@@ -83,4 +82,4 @@ form input[type="submit"] {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-}
+  }
