@@ -3,7 +3,7 @@ document.querySelector("#aj").addEventListener('click', () => {
 });
 
 document.querySelector("#jez").addEventListener('click', () => {
-    alert("'Our life is what thoughts make it.'");
+    alert("'Our life is what our thoughts make it.'");
 });
 
 document.querySelector("#sheree").addEventListener('click', () => {
