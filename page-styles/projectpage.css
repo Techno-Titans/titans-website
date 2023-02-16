@@ -1,0 +1,21 @@
+.project-page {
+    font-family: 'Roboto', sans-serif;
+}
+
+.project-page-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #e500e2;
+}
+
+.picture {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 30;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
