@@ -70,12 +70,17 @@ p {
         justify-content: center;
         margin-left: 0px;
     }
-
+    .redirect-text {
+        font-size: 10pt;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .company-logo {
         width: 64px;
+    }
+    .redirect-text {
+        font-size: 8pt;
     }
 }
 
