@@ -1,12 +1,12 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .contact-form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: #1d1546;
+  background: linear-gradient(45deg, #000000, #1d1546);
   padding: 50px;
   color: #ffffff;
 }
@@ -29,8 +29,8 @@ label {
   width: 150px;
 }
 
-input[type='text'],
-input[type='email'],
+input[type="text"],
+input[type="email"],
 textarea {
   padding: 10px;
   font-size: 18px;
@@ -49,7 +49,7 @@ textarea {
   word-wrap: break-word;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   padding: 10px 20px;
   font-size: 18px;
   border: none;
@@ -61,7 +61,7 @@ input[type='submit'] {
   cursor: pointer;
 }
 
-input[type='submit']:hover {
+input[type="submit"]:hover {
   background-color: #ffffff;
   color: #e500e2;
 }
