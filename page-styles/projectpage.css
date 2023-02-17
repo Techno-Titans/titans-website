@@ -12,10 +12,44 @@
 .picture {
     border-top-right-radius: 20px;
     border-top-left-radius: 30;
+    width: 90%;
+    border-radius: 10px;
 }
 
 .description {
     font-family: 'Roboto', sans-serif;
-    font-size: 17px;
+    font-size: 14pt;
 }
 
+.our-projects-pic {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.our-project-description {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .description {
+        font-size: 10pt;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .description {
+        font-size: 8pt;
+    }
+}
+
+.project-page-title {
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+body {
+    padding-bottom: 80px;
+}
