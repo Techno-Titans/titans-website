@@ -36,9 +36,9 @@ textarea {
   font-size: 18px;
   margin-bottom: 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 12px;
   background-color: #ffffff;
-  color: #1d1546;
+  color: #000000;
   width: 100%;
 }
 
@@ -53,10 +53,10 @@ input[type="submit"] {
   padding: 10px 20px;
   font-size: 18px;
   border: none;
-  border-radius: 5px;
+  border-radius: 12px;
   background-color: #e500e2;
   color: #ffffff;
-  width: 30%;
+  width: 35%;
   margin-left: auto;
   cursor: pointer;
 }
