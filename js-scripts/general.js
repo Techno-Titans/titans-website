@@ -1,19 +1,20 @@
-let logoButton = document.querySelector("#logo-button");
+let logoButton = document.querySelector("#home-button");
+let teamButton = document.querySelector("#our-team");
+let projectsButton = document.querySelector("#our-projects");
+let contactButton = document.querySelector("#our-contact");
 
-function redirectHome() {
-    location.href = "index.html";
-}
+logoButton.addEventListener('click', () => {
+    location.href = '../index.html'
+})
 
-function redirectTeam() {
-    location.href = "teampage.html"
-}
+teamButton.addEventListener('click', () => {
+    location.href = '../team-page.html'
+})
 
-function redirectProject() {
-    location.href = "projectPage.html"
-}
+contactButton.addEventListener('click', () => {
+    location.href = '../contact-page.html'
+})
 
-function redirectContact() {
-    location.href = "contactpage.html"
-}
-
-
+projectsButton.addEventListener('click', () => {
+    location.href = '../project-page.html'
+})
