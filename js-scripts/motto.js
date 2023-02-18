@@ -1,23 +1,30 @@
-document.querySelector("#aj").addEventListener('click', () => {
+let ajButton = document.querySelector("#aj")
+let jezButton = document.querySelector("#jez")
+let shereeButton = document.querySelector("#sheree")
+let wayneButton = document.querySelector("#wayne")
+let reggieButton = document.querySelector("#reggie")
+let abrilButton = document.querySelector("#abril")
+
+ajButton.addEventListener('click', () => {
     alert("'Ad Astra per Aspera'");
 });
 
-document.querySelector("#jez").addEventListener('click', () => {
+jezButton.addEventListener('click', () => {
     alert("'Our life is what our thoughts make it.'");
 });
 
-document.querySelector("#wayne").addEventListener('click', () => {
+wayneButton.addEventListener('click', () => {
     alert("'Sometimes you never realize the value of a moment until becomes a memory.'");
 });
 
-document.querySelector("#reggie").addEventListener('click', () => {
+reggieButton.addEventListener('click', () => {
     alert("'Carpe diem'");
 });
 
-document.querySelector("#abril").addEventListener('click', () => {
+abrilButton.addEventListener('click', () => {
     alert("'Belief is the death of intelligence.'");
 });
 
-document.querySelector("#sheree").addEventListener('click', () => {
+shereeButton.addEventListener('click', () => {
     alert("'Live each day as if it were your last'");
 });
