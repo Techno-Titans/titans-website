@@ -6,8 +6,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: linear-gradient(45deg, #000000, #1d1546);
   padding: 50px;
+  padding-bottom: 0px;
   color: #ffffff;
 }
 
@@ -65,3 +65,9 @@ input[type="submit"]:hover {
   background-color: #ffffff;
   color: #e500e2;
 }
+
+body {
+  background: linear-gradient(45deg, #000000, #1d1546);
+  padding-bottom: 18px;
+}
+

@@ -60,6 +60,24 @@ p {
     font-family: Roboto, Arial;
 }
 
+.footer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 1px, solid, rgb(29, 21, 70);
+    border-style: solid hidden hidden;
+    border-width: 1px;
+    height: 30px;
+    margin-top: 6px;
+}
+
+.copyright {
+    display: flex;
+    flex: 1;
+    color: rgb(150, 150, 150);
+    justify-content: center;
+}
+
 @media screen and (max-width: 800px) {
     .logo {
         margin-left: 2%;
